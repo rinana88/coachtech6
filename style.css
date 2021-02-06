@@ -175,7 +175,7 @@ html {
 
 body {
   color: #2c2c2c;
-  font-family: 'MS P明朝', 'MS 明朝', 'MS PMincho', 'MS Mincho', 'Yu Mincho', serif;
+  font-family: 'MS P明朝', 'MS 明朝', 'MS PMincho', 'MS Mincho', 'Yu Mincho', 'times', serif;
   font-size: 1.4rem; /* -> 14px; */
   line-height: 150%;
   box-sizing: border-box;
@@ -189,6 +189,7 @@ font-style: italic;
 
 #eyecatch {
   display: flex;
+  margin:0 auto;
 }
 
 .eyecatch-left {
@@ -208,27 +209,98 @@ ul {
 
 }
 
+.header-nav {
+  margin-left: auto;
+  margin-top: 30px;
+  width: 45%;
+}
+
+.header-nav ul li {
+  color: #ffff;
+
+}
+
 .header-nav ul {
   font-size: 1.6rem;
 
 }
 
-.sns-nav{
-  transform: rotate(-90deg);
+.header-nav ul li a {
+  padding: 11px 34px 11px 34px;
+  color: #ffff;
+  text-decoration: none;
+  
 }
 
-ul li a {
+.sns-nav{
+  transform: rotate(-90deg);
+  
+}
+
+.sns-nav ul li a {
   text-decoration: none;
   color: #2c2c2c;
 }
 
 .eyecatch-right {
-  background-image: url(img/eyecatch01.png);
-  height: 90vh;
-
+  background-image: url(img/eyecatch-img.png);
+  height: 100vh;
   background-size: cover;
+  
+  position: relative;
   
 }
 
+.logo-wrap {
+  width: 40%;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 10%;
+  background: rgba(255,255,255, 0.2);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%)
+  translateX(-50%);
+  -webkit- transform: translateY(-50%)
+  translateX(-50%);
+}
+
+.logo {
+  font-size: 5.8rem;
+  padding: 30px;
+  letter-spacing: 2.5rem;
+  font-family: times;
+  color: #ffff;
+}
+
+.catch-copy {
+  font-size: 1.8rem;
+  padding-top: 46px;
+  color: #ffff;
+  letter-spacing: 1.2rem;
+}
+
+.section-title-wrap {
+  border-bottom: 1px solid #2c2c2c;
+  display: flex;
+  width: 157px;
+  align-items: center;
+}
+
+.section-title-bar {
+  width: 9px;
+  height: 70px;
+  background: #DFD1E4;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 4.8rem;
+  display: inline-block;
+  padding: 5px 10px 10px 20px;
+}
+  
 
 
