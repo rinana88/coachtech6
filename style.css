@@ -301,6 +301,30 @@ h1 {
   display: inline-block;
   padding: 5px 10px 10px 20px;
 }
-  
+#about {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 142px;
+}
+.about-copy-wrap {
+  width: 50%;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0 auto;
+}
+.btn {
+  text-decoration: none;
+  color: #2c2c2c;
+  padding: 20px;
+}
+
+.about-img-wrap {
+  width: 40%;
+}
+.about-img
+
 
 
