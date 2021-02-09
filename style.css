@@ -291,8 +291,9 @@ h1 {
 }
 
 .sns-nav ul {
-  position:relative;
-  top: 75vh;
+  position: relative;
+  top: 500px;
+  
   display: flex;
   list-style: none; 
   writing-mode: vertical-rl;
@@ -306,10 +307,11 @@ h1 {
 
 
 .sns-nav ul li a {
+
   text-decoration: none;
   color: #2c2c2c;
   font-size: 16px;
-  padding: 0 34px 0 34px;
+  margin-top: 34px;
 
   
 }
